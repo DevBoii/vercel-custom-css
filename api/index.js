@@ -4,7 +4,7 @@ module.exports = async (req, res) => {
     await (await fetch('http://lsfd.gta.world/' + req.url)).text()
   ).replace(
     '</head>',
-    '<link media="all" href="/custom.css" rel="stylesheet" /></head>'
+    '<style>body, html{background-color:black;}</style></head>'
   )
 
   res.send(html)
