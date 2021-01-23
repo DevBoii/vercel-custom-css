@@ -1,0 +1,46 @@
+.wrap {
+  max-width: 1500px;
+  padding: 0px;
+}
+
+.smiley-box {
+  display: none;
+}
+
+.message-box {
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+html, body{
+  background-color: #e6e6e6;
+}
+
+.inventea-header {
+  background-color: #ffffff;
+  padding: 15px 15px;
+  width: auto;
+  max-width: 1391px;
+  margin: 0 2.5%;
+  border-left: 2px solid #e7e7e7;
+  border-right: 2px solid #e7e7e7;
+}
+
+.inventea-dashboard {
+  background-image: url('https://i.imgur.com/7n9WOcP.png');
+}
+
+.inventea-footer {
+  display: none;
+}
+
+.inventea-wrapper {
+  padding: 15px 50px;
+}
+
+.forabg {
+  margin-bottom: 35px;
+}
